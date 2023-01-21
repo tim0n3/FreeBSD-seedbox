@@ -31,10 +31,3 @@ sudo pkg install -y transmission
 # Start and enable transmission at boot
 sudo sysrc transmission_enable=YES
 sudo service transmission start
-
-# Install mango
-sudo pkg install -y mango
-
-# Start and enable mango at boot
-sudo sysrc mango_enable=YES
-sudo service mango start
