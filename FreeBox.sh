@@ -25,13 +25,6 @@ sudo pkg install -y plexmediaserver
 sudo sysrc plexmediaserver_enable=YES
 sudo service plexmediaserver start
 
-# Install jellyfin
-sudo pkg install -y jellyfin
-
-# Start and enable jellyfin at boot
-sudo sysrc jellyfin_enable=YES
-sudo service jellyfin start
-
 # Install transmission
 sudo pkg install -y transmission
 
